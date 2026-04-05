@@ -42,7 +42,7 @@ export default function NoteState(props) {
             body: JSON.stringify({ Title, Description,Posted })
 
         });
-        const json = resposne.json()
+        await response.json();
         getnotes()
     }
 
@@ -62,7 +62,7 @@ export default function NoteState(props) {
 
 
         });
-        const json = resposne.json()
+        await response.json();
     }
 
     const [iid, Setid] = useState("")
@@ -91,7 +91,7 @@ export default function NoteState(props) {
             body: JSON.stringify({ Title, Description,  })
 
         });
-        const json = await resposne.json()
+        await response.json();
     
 
         getnotes();

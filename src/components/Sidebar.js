@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { StickyContainer, Sticky } from 'react-sticky';
 
 export default function Sidebar() {
   const navigate = useNavigate();

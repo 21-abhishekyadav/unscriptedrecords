@@ -1,5 +1,5 @@
 import React from 'react'
-import { useContext, useEffect,useState } from 'react'
+import { useContext, useState } from 'react'
 import postContext from '../context/postContext'
 import noteContext from '../context/noteContext'
 import Modal from 'react-bootstrap/Modal';

@@ -21,7 +21,8 @@ export default function Posts() {
       setInitialLoad(false);
     };
     fetchInitialPosts();
-  }, []);
+  }, [getpost]);
+
 
   // Masonry layout
   useEffect(() => {

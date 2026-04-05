@@ -79,7 +79,7 @@ export default function NoteState(props) {
             body: JSON.stringify({ Title,Subheading, Description,Category })
 
         });
-        const json = resposne.json()
+        await response.json();
         getpost()
     }
 
